@@ -1,0 +1,16 @@
+.about{
+    padding-bottom:40px;
+}
+.about .main-heading h1::before{
+    width: 116px;
+}
+.about-img{
+    text-align: center;
+    overflow:hidden;
+    position:relative;
+}
+.about-img img{
+    position: relative;
+    bottom: -90px;
+    margin-top:-90px;
+}

@@ -1,0 +1,62 @@
+.contact .main-heading h1::before{
+    width:245px;
+}
+.contact .content{
+    display:flex;
+    justify-content: space-between;
+    padding:25px 90px;
+    max-height:100%;
+}
+@media(max-width:768px){
+    .contact .content{
+        flex-direction: column;
+    }
+}
+.contact .content form{
+    flex-basis:70%;
+    width:100%;
+}
+.contact .content input{
+    display: block;
+    width:100%;
+    padding:16px;
+    margin-bottom:24px;
+}
+.contact .content textarea{
+    width:100%;
+    padding:16px;
+}
+.contact .content button{
+    padding:20px;
+    background-color: var(--color1);
+    color:white;
+    margin-left:auto;
+    border:none;
+}
+.contact .content address{
+    flex-basis:20%;
+}
+
+@media(max-width:768px){
+    .contact .content address{
+        margin-top:50px;
+    }
+}
+.contact .content .touch{
+    margin-bottom:85px;
+}
+.contact .content .touch h4{
+    font-weight:normal;
+    font-size:18px;
+}
+.contact .content .touch p{
+    opacity:60%;
+}
+.contact .content .place h4{
+    font-weight:normal;
+    font-size:18px;
+}
+.contact .content .place p{
+    line-height:1.8;
+    opacity:60%;
+}

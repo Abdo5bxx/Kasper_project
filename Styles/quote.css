@@ -1,0 +1,25 @@
+.quotes{
+    background-image: url(../Images/quote.jpg);
+    height:300px;
+    position: relative;
+    min-height:100%;
+}
+.quotes::before{
+    content:"";
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    background-color: rgba(0,0,0,0.75);
+}
+.quotes .container{
+    position: relative;
+    text-align: center;
+    color:white;
+    top:50%;
+    transform:translateY(-50%);
+}
+.quotes .container q{
+    font-size:30px;
+}

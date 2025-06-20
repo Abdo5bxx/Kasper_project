@@ -1,0 +1,27 @@
+.video{
+    width:100%;
+    position:relative;
+}
+.video video{
+    width:100%;
+}
+.video .text{
+    position: absolute;
+    top:50%;
+    left:0;
+    transform:translateY(-50%);
+    width: 100%;
+    text-align: center;
+    background-color: rgb(15 116 143 / 70%);
+    padding-bottom: 20px;
+    color:white;
+}
+.video .text h1{
+    text-transform: uppercase;
+}
+.video .text button{
+    color: white;
+    background-color: black;
+    border: none;
+    padding: 10px;
+}

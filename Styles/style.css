@@ -1,0 +1,52 @@
+@import url(header.css); @import url(landing.css); @import url(services.css); @import url(design.css); @import url(portifolio.css); @import url(video.css);
+@import url(about.css); @import url(stats.css); @import url(skills.css); @import url(quote.css); @import url(prices.css); @import url(subscription.css);
+@import url(contact.css); @import url(footer.css);
+:root{
+    --color1:#19c8fa;
+}
+body{
+    margin:0;
+    padding:0;
+    font-family:"Open Sans";
+    scroll-behavior: smooth;
+    /* background-color: black; */
+}
+.container{
+    margin:0px 50px;
+    padding:0 20px;
+}
+ul{
+    list-style-type: none;
+}
+ul li a{
+    text-decoration: none;
+}
+.main-heading{
+    text-align:center;
+    margin-left:35px;
+    margin-top:20px;
+}
+.main-heading h1{
+    font-size:40px;
+    position:relative;
+    font-weight:normal;
+}
+.main-heading h1::before{
+    content:"";
+    background-color:black;
+    width:179px;
+    height:2px;
+    position:absolute;
+    bottom:-10px;
+}
+.main-heading h1::after{
+    content:"";
+    width:10px;
+    height:10px;
+    border:1px solid black;
+    border-radius:100%;
+    background-color: white; 
+    position:absolute;
+    bottom:-15px;
+    left:49.5%;
+}

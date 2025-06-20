@@ -1,0 +1,42 @@
+.subscribe{
+    background-image: url(../Images/subscribe.jpg);
+    height:48vh;
+}
+.subscribe .container{
+    display:flex;
+    align-items: center;
+    position:relative;
+    top:50%;
+}
+@media(max-width:991px){
+    .subscribe .container{
+        flex-direction: column;
+    }    
+}
+.subscribe .container .input{
+    display:flex;
+    align-items: center;
+    border:1px solid white;
+    position:relative;
+}
+.subscribe .container i{
+    position:absolute;
+    color:white;
+    left:5px;
+}
+.subscribe .container input[type="email"]{
+    padding:30px;
+    background: none;
+    caret-color: var(--color1);
+    color:white;
+}
+.subscribe .container button{
+    background-color: var(--color1);
+    color:white;
+    padding:30px;
+    border:none;
+}
+.subscribe .container p{
+    color:white;
+    padding-left:50px;
+}

@@ -1,0 +1,46 @@
+.design{
+    background-image:url(../Images/design-features.jpg);
+    display:flex;
+    justify-content: space-between;
+    position:relative;
+    height:500px;
+    flex-direction:row;
+    width:100%;
+}
+.image{
+    position: absolute;
+    bottom: -0px;
+    left: 89px;
+}
+.design .content{
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    padding:60px;
+    color:white;
+    background-color:rgb(15 116 143 / 70%);
+    padding-right:100px
+}
+.design .content h1{
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    font-weight:normal;
+    margin-left:35px;
+}
+.design .content ul li{
+    margin-bottom:20px;
+}
+.design .content ul li i{
+    margin-right: 10px;
+}
+@media(max-width:1075px){
+    .design .image{
+        display:none;
+    }
+    .design .content{
+        width:100%;
+        margin:0;
+        padding:0;
+    }
+}
